@@ -16,12 +16,3 @@ def qsort(lista):
                 direita.append(elemento)
         
         return qsort(esquerda) + meio + qsort(direita)
-
-lista = ['lucas dos santos dias', 'fabricio marques dias', 'rita de cassia marques dos santos'
-         ,'jose brito dias']
-
-print("Lista original:", lista)
-
-ordenada = qsort(lista)
-
-print("\nLista ordenada:", ordenada)

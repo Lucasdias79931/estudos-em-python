@@ -17,11 +17,12 @@ print(boolean)
 
 '''
 
-a =2
+def infinito(a):
+    let =3
+    print(hex(id(a)))
+    infinito(a + let)
 
-if a== 2:
-    passou = True
 
+var = 2
 
-if(passou):
-    print("ok")
+infinito(var)
